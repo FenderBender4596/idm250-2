@@ -8,6 +8,10 @@
 <div id="content">
 	<div class="container_home">
 
+<section>
+	<h1 class="socialHeader">[Social Links]</h1>
+</section>
+
 <section class="social">
 	
 <?php 

@@ -22,7 +22,7 @@
 					);
 
 
-			$loop = new WP_Query( $args );
+					$loop = new WP_Query( $args );
 			if ( $loop->have_posts() ) {
 			while ( $loop->have_posts() ) : $loop->the_post();
 			?>
@@ -33,7 +33,22 @@
 			<?php endwhile;
 			}?>
 					
-					
+			 <h1 class="pageSectionHeader">[ALBUM REVIEWS]</h1>
+			 <br>
+					<?php
+			        $args = array(
+					'category_name' => 'album-reviews',
+					'order' => 'DESC'
+					);
+				    $loop = new WP_Query( $args );
+					if ( $loop->have_posts() ) {
+					while ( $loop->have_posts() ) : $loop->the_post();
+					?>
+					<div class="column">
+	
+					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					</div>
+					<?php endwhile; }?>		
 					
 						
 					</div><!--//single_inside_content -->

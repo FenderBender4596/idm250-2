@@ -14,7 +14,7 @@
 
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
-					<h1 class="pageSectionHeader">Graphic Design</h1>
+					<h1 class="pageSectionHeader">[GRAPHIC DESGIN]</h1>
 					<br>
 					<?php
 			        $args = array(
@@ -31,7 +31,7 @@
 					</div>
 					<?php endwhile; }?>
 
-			        <h1 class="pageSectionHeader">UI/UX Design</h1>
+			        <h1 class="pageSectionHeader">[UI/UX DESIGN]</h1>
 					<br>
 					<?php
 			        $args = array(
@@ -48,7 +48,7 @@
 					</div>
 					<?php endwhile; }?>
 
-			        <h1 class="pageSectionHeader">Photography</h1>
+			        <h1 class="pageSectionHeader">[PHOTOGRAPHY]</h1>
 					<br>
 					<?php
 			        $args = array(
