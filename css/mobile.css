@@ -73,7 +73,7 @@
 	.home_bottom_box_last { width: 308px; margin-right: 0; }	
 	ul.home_bottom_blog_list li h4 { font-size: 16px; }
 		
-	.single_left { width: 520px; }
+	.single_left { width: 520px;}
 	.single_full { width: auto; }
 	.blog_box .left { width: 220px; }
 	.blog_box .right { width: 498px; }
@@ -104,6 +104,18 @@
     color: #FF4F49;
     font-size: 36px;
     font-family: 'Oswald', sans-serif;
+}
+
+.single_inside_content {
+    margin-left: -5%;
+}
+
+.left {
+	margin-top: 25%;
+}
+
+.right {
+	margin-top: 25%;
 }
 	
 }
