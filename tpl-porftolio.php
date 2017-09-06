@@ -52,7 +52,7 @@
 					<br>
 					<?php
 			        $args = array(
-					'category_name' => 'photogaphy',
+					'category_name' => 'photography',
 					'order' => 'DESC'
 					);
 

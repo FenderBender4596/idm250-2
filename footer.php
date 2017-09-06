@@ -32,7 +32,7 @@
 		</div><!--//footer_social-->
 		
 		<footer>
-	<div>© Copyright Of Jacob Bender</div>
+	<div>© Copyright Of Jacob Bender * 610-731-6387 * jeb437@drexel.edu</div>
 	</footer>
 	
 		

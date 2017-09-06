@@ -9,7 +9,7 @@
 	<div class="container_home">
 
 <section>
-	<h1 class="socialHeader">[Social Links]</h1>
+	<h1 class="socialHeader">[SOCIAL LINKS]</h1>
 </section>
 
 <section class="social">
@@ -51,7 +51,7 @@ wp_nav_menu($args);
 					<?php } elseif(get_post_meta( get_the_ID(), 'page_featured_type', true ) == 'vimeo') { ?>
 						<iframe src="http://player.vimeo.com/video/<?php echo get_post_meta( get_the_ID(), 'page_video_id', true ); ?>?title=0&amp;byline=0&amp;portrait=0&amp;color=03b3fc" width="500" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					<?php } else { ?>
-						<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('ut-home-image'); ?></a>
+						<a href="<?php the_permalink(); ?>"></a>
 					
 						
 					<?php } ?>			

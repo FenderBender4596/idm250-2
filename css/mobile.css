@@ -28,6 +28,23 @@
 	
 	.single_inside_content img { max-width: 100%; height: inherit; }
 	.single_inside_content iframe { width: 670px; height: 375px;}
+
+	.socialHeader {
+    width: 40%;
+    margin-left: 22%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    border: 5px solid #f7eecf;
+    margin: 0 auto;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #1C1B17;
+    color: #FF4F49;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+}
 	
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -71,6 +88,23 @@
 	
 	.single_inside_content img { max-width: 100%; height: inherit; }
 	.single_inside_content iframe { width: 740px; height: 420px;}
+
+	.socialHeader {
+    width: 40%;
+    margin-left: 22%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    border: 5px solid #f7eecf;
+    margin: 0 auto;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #1C1B17;
+    color: #FF4F49;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+}
 	
 }
 /* All Mobile Sizes (devices and browser) */
@@ -107,7 +141,7 @@
 	.home_bottom_box_last { width: auto; margin-right: 0; }	
 	ul.home_bottom_blog_list li h4 { font-size: 16px; }	
 	
-	.single_left { float: none; width: auto; margin-bottom: 25px; }
+	.single_left { float: none; width: auto; margin-bottom: 25px; width: 90%; margin-top: 3%;}
 	.single_full { width: auto; }
 	
 	#commentform textarea { max-width: 280px; }		
@@ -142,12 +176,47 @@
     	font-size: 24px;
     	font-family: 'Oswald', sans-serif;
 	}*/
+.left {
+	margin-top: -40%;
+}
+
+.right {
+	margin-top: -40%;
+}
+
+.next_prev_cont_top_right .right {
+    float: right;
+    width: auto;
+    margin-left: 35px;
+}
+
+.single_title {
+	width: 110%;
+}
 	
 	h1.single_title {
-  font-size:18px;
+  font-size: 14px;
   font-weight:normal;
   margin:0 0 20px;
+  margin-top: 20%;
   
+}
+
+.socialHeader {
+	width: 60%;
+    margin-left: 22%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    border: 5px solid #f7eecf;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #1C1B17;
+    color: #FF4F49;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
 }
 	
 }
